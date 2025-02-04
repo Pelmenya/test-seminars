@@ -1,0 +1,15 @@
+{
+  "name": "backend-seminars",
+  "version": "1.0.0",
+  "description": "Backend for Seminars app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx json-server seminars.json"
+  },
+  "author": "Dmitry Lyapin",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
